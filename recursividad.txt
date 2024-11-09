@@ -1,0 +1,6 @@
+la recursividad la utilizamos en programacion en donde tenemos un problema que podemos resolverlo a traves de un codigo que llamandose
+asi mismo varias veces en por lo menos una oportunidad tiene un punto de salida que da respuesta a todas las llamadas consecutivamente
+
+
+la gestion de memoria en la recursividad se hacee mediante pilas de llamadas en cada una de esas llamdas se hace una especie de pilon mas si no llegase a un punto de salida 
+podria hber un desbordamiento de la misma

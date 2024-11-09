@@ -1,0 +1,69 @@
+
+Una funcion es un bloque de codigo que realiza una tarea especifica 
+
+al tener una tarea especifica la puedo descomponer 
+en una funcion que puedo llamar varias veces
+en cualquier lugar del programa
+
+
+el formato de la funciones y variables es snake_case *******
+
+las funciones deben tener un verbo que las represente
+ ya que son una accion
+--------------------------------------
+objetivos de las funcion
+
+*minificacion: se logran programas mas simples pues cada funcion
+realiza una tarea simple
+
+*depuracion queda reservada a cada funcion
+
+*Modificacion quedan reducidas a cada modulo
+
+*reutilizacion cuando estan bien probadas se pueden reutilizar todas
+las veces que se quiera
+
+*independencia: se obtiene autonomia en el codigo donde cada funcion es
+indepediente de la otra
+
+
+------------------------
+parametros formales: variables que reciben os datos con los que van
+la funcion los mismo estan declarados en la definicion de la funcion
+
+
+parametros actuales variables que recibe la funcion al ser 
+llamada en la ivocacion
+
+------------------
+parametros opcionales: van despues de los obligatorios , si me los oasan en la llamada tomo el valor 
+de esa variable sino tomo el que tiene la definicon 
+
+def restar (numero_a, numero_b = 5)
+
+------------------
+Scope o ambito de la funcion es donde las variables locales nacen y mueren
+-----------------------
+cohesion: union entre las partes de una programa que permit
+que juntas trabajen efectivamente
+
+acomplamiento: dependencia entre las funciones
+
+lo ideal es un bajo acoplamiento y una alta cohesion
+
+----------------------------------
+
+referencia: permiten manipular un valor a traves de la direccion de memoria
+
+los paramatros formales que recibe una funcion se le pueden 
+pasar a una funcion por referencia o por valor
+
+*pasaje por valor: se crea una copia de la variables por lo cual no habra modificacion alguna
+sobre la variable original
+
+pasaje por referencia: se recibe la direccion de memoria de la variables original lo
+cual permite hacer modificaciones directamente sobre ella
+
+
+en python los pasajes se hacen por referencia con la particularidad de que si lo datos son inmutanles como cadenas o numero no 
+sufre modificacion a deiferencia de los mutables como listas o diccionarios que si se ven afectadas

@@ -1,0 +1,20 @@
+**github es una plataforma de desarrollo de software colaborativoque permite el 
+control de las versiones basado en git en repositorios donde se alojan los proyectos
+
+***git es un sistema de control de versiones que permite realizar un seguimientos de 
+los cambios realizados en el codigo fuente
+
+------------------------
+para configurar gloabalmente el git:
+
+git congif --global user.name "rangelyusmelis"
+git config --global user.email "ryusmeis23@gmail.com"
+
+---------------------------
+*git init crea la carpeta.git en el directorio actual 
+*git status estado actual del repositorio
+*git add . las modificaciones a loz repositorios se agregan al area de preparacion
+*git commit .m "mensaje" toma una foto del area de preparacion y la guarda en en el repositorio local este es un 
+    punto de control en el historial del proyecto 
+* git remote add origin url asocia el repositorio local con el repositorio remPto
+*GIT PUSH  envia los commits locales al repositorioremoto
