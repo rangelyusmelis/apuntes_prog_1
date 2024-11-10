@@ -1,0 +1,36 @@
+Una matriz es una estructura de datos bidimensionales que contiene elementos
+en filas y columnas formando una tabla 
+
+en python se puede utilizar las listas anidadas como 
++una forma para manejar matrices
+
+donde las filas serian lista internas y en cada valor que
+se mostraria en las columnas serian los elementos individuales de la lista
+
+matriz 1 4 5 9 8
+       3 6 9 8 7
+       4 8 9 10 11
+
+       matriz = [[1,4,5,9,8],
+                 [3,6,9,8,7],
+                 [4,8,9,10,11]]
+
+-------------------------------------
+mostrar un elemtno de la lista
+posicion_ [indice de la fila][indice de columna]
+
+de la matriz anterior si quisera mostrar el 7 seria:
+print(matriz[1][4])
+----------------------------------------
+
+crear un a matriz e iniclizarla
+
+
+
+
+def inicializar_matriz(cantidad_filas: int, cantidad_columnas, valor_inicial: any)-> lista:
+    matriz = []
+    for i in cantidad_filas:
+        fila = [valor_inicial]*cantidad_columnas
+    matriz += fila
+    return matriz
